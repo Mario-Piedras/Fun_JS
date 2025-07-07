@@ -1,0 +1,13 @@
+{
+    "persona" : {
+    "nombre":"Mario",
+    "edad":"23",
+    "aprendiz": true,
+    "residencia":{
+        "direccio":" calle 20a trasversal #16-57",
+        "ciudad": "Palmira",
+        "departamento":"Valle del cauca"
+        },
+    "telefono":"3158555749"
+    }
+}

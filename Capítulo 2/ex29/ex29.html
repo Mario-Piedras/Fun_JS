@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alarma con sonido</title>
+    <!--Insertar la blioteca con la cual personalizar la intterfaz-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </head>
+  <!--Enlazar con un archico .css-->
+  <link rel="stylesheet" href="ex29.css">
+  <body onload="comenzarReloj()">
+    <label>Seleccioa el tiempo de la Alarma
+      <input type="number" name="tiempo" id="tiempoElegido">
+    </label>
+
+    <button onclick="comenzarTiempo()">Alarma</button> <br>
+
+    <h1 id="textoAlarma">00:00:00</h1>
+
+    <audio src="Alarma.mp3" id="audioAlarma" type="audio/mpeg" controls>
+      Sonido no habilitado
+    </audio>
+
+    <script src="/Capítulo 2/ex29/ex29.js"></script>
+  </body>
+</html>
+

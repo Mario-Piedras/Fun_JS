@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>titulo</title>
+    <!--Insertar la blioteca con la cual personalizar la intterfaz-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </head>
+  <body>
+    <h2>Funciones Open y Confirmar</h2>
+    <form>
+      <label>
+        Abrir una pesataña del navegador
+        <input type="button" value="Abrir" onclick="pesta()"/> <br> <br>
+
+        Abir otras ventanas del navegador
+        <input type="button" value="Abrir" onclick="ventana()"/> <br> <br>
+        <input type="button" value="Salir" onclick="confirmar()"/> <br> <br>
+      </label>
+    </form>
+
+    <h2>Redireccionamiento y locación</h2>
+    <label>
+      Abir una pagina especifica
+      <input type="button" value="Abrir" onclick="redireccionar()"/> <br> <br>
+    </label>
+
+    <!-- Conteo y disponibilidad de caracteres -->
+    <label>
+      <textarea name="texto" id="texto" cols="40" rows="10" maxlength="20"></textarea> <br> 
+    </label>
+
+    <p>caracteres disponibles: <span id ='cantidad'>20</span></p>
+
+    <script src="/Capítulo 2/ex26/ex26.js"></script>
+  </body>
+</html>
+

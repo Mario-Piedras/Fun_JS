@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>titulo</title>
+    <!--Insertar la blioteca con la cual personalizar la intterfaz-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </head>
+  <!--Enlazar con un archico .css-->
+  <link rel="stylesheet" href="ex27.css">
+  <body>
+    <button onclick="comenzar()">Alerta de 5 segundos</button> <br> <br>
+    
+    <label> Selecciona el tiempo
+      <input type="number" name="tiempo" id="tiempoElegido"></input>
+    </label>
+    <button onclick="iniciar()">Activar</button> <br> <br>
+
+    <label> Selecciona el tiempo
+      <input type="number" name="tiempo" id="tiempoCronometrado"></input>
+    </label>
+    <button onclick="cuentaRegresiva()">Iniciar</button> <br> <br>
+    <h4 id="txtTiempo">¡tiempo Finalizado!</h4>
+    <h4>Tiempo restante: <span id= "contador">0</span></h4>
+
+    <script src="/Capítulo 2/ex27/ex27.js"></script>
+  </body>
+</html>
+

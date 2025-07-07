@@ -1,0 +1,117 @@
+{
+    "biblioteca": [
+        {
+            "titulo": "ÉTICA EN LAS ORGANIZACIONES",
+            "editorial": "MC Graw Hill",
+            "edicion": "Simulación",
+            "isbn": "95446920",
+            "autores": {
+            "autor principal": "Eduardo Soto Pineda",
+            "autor secundario": "Jose ANtonio Cardenas Marroquin"
+            },
+            "codigo sena": ["", "769544002123"],
+            "descripcion": "Habla de etica"
+        },
+        {
+            "titulo": "MANUAL DE LÓGICA ELEMENTAL",
+            "editorial": "trillas",
+            "edicion": "Simulación",
+            "isbn": "2117641264 (Simulación)",
+            "autores": {
+            "autor principal": "Mario Alberto Lozano Gonzales",
+            "autor secundario": "Adriana Pérez Armendez"
+            },
+            "codigo sena": ["769544004078"],
+            "descripcion": "Elemental, mi querido Wattson"
+        },
+        {
+            "titulo": "MINDFULNESS PARA AFMILIAS",
+            "editorial": "ANICCA",
+            "edicion": "2",
+            "isbn": "124187612 (Simulación)",
+            "autores": {
+            "autor principal": "Hitler (Simulación)"
+            },
+            "codigo sena": ["769544004163"],
+            "descripcion": "Una maravillosa expedición con miles de estrellas"
+        },
+        {
+            "titulo": "Motricidad y aprendizaje",
+            "editorial": "GRAÓ",
+            "edicion": "Simulación",
+            "isbn": "2176416581 (Simulación)",
+            "autores": {
+            "autor principal": "Marcelino Juan Vaca Escribano",
+            "autor secundario": "María Soledad Varela Ferreras"
+            },
+            "codigo sena": ["769544002219"],
+            "descripcion": "El tratamiento pedagoógico del ámbito corporal"
+        },
+        {
+            "titulo": "Filosofía y muerte",
+            "editorial": "trillas",
+            "edicion": "Simulación",
+            "isbn": "764761284 (Simulación)",
+            "autores": {
+            "autor principal": "José Antonio Decal Alonso"
+            },
+            "codigo sena": ["769544002745"],
+            "descripcion": "Habla de la muerte y las emociones que evoca"
+        },
+        {
+            "titulo": "LOS 7 HÁBITOS DE LOS ADOLECENTES ALTAMENTE EFECTIVOS E LA ERA DIGITAL",
+            "editorial": "SEAN COVEY",
+            "edicion": "Simulación",
+            "isbn": "145151864 (Simulación)",
+            "autores": {
+            "autor principal": "Furina (Simulación)"
+            },
+            "codigo sena": ["769544004545"],
+            "descripcion": "COMO SER NIÑOS BUENOS =D"
+        },
+        {
+            "titulo": "LAS AUTOESTIMAS MÚLTIPLES",
+            "editorial": "trillas",
+            "edicion": "Simulación",
+            "isbn": "7687568124 (Simulación)",
+            "autores": {
+            "autor principal": "Raúl Sánchez Barajas"
+            },
+            "codigo sena": ["769544003855"],
+            "descripcion": "Dimenciones de la autoevaluación."
+        },
+        {
+            "titulo": "¡¡APRENDA A ESTRESARSE!!",
+            "editorial": "Diaz Santos",
+            "edicion": "Simulación",
+            "isbn": "5671724981 (Simulación)",
+            "autores": {
+            "autor principal": "José Carlos Fuertes Rocañin"
+            },
+            "codigo sena": ["769544002687"],
+            "descripcion": "Cómo convertir una amenaza en una oportunidad"
+        },
+        {
+            "titulo": "Quiero aprender a quererme con asertividad",
+            "editorial": "Quieroaprender",
+            "edicion": "2a edición",
+            "isbn": "214976481 (Simulación)",
+            "autores": {
+            "autor principal": "Olga Castanyer"
+            },
+            "codigo sena": ["769544004152"],
+            "descripcion": "mejorar la autoestima y la asertividad"
+        },
+        {
+            "titulo": "Las reglas para romper",
+            "editorial": "trillas",
+            "edicion": "Simulación",
+            "isbn": "8247965918 (Simulación)",
+            "autores": {
+            "autor principal": "Richard Templar"
+            },
+            "codigo sena": ["769544003838"],
+            "descripcion": "Aquellas cosas de las que debes olvidarte para ser feliz"
+        }
+    ]
+}

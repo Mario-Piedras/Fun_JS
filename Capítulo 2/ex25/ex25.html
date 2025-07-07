@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>titulo</title>
+    <!--Insertar la blioteca con la cual personalizar la intterfaz-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </head>
+  <body>
+    <h2>Ingrese sus datos</h2>
+    <!--El onfocus hace que al seleccionar el imput en cuestion se dispare la funcion seleccionada, en este caso la funcion que se utiliza es una que vacia el recuadro de texto lo que hace más facil el digitar la información-->
+    <label>
+      <input type="text" name="numbreUsuario" id="nombre" onfocus="vaciar(this)" value="nombre"></input>
+    </label>
+
+    <label>
+      <input type="text" name="edadUsusario" id="edad" onfocus="vaciar(this)" value="edad"></input>
+    </label>
+
+    <input type="button" value="Ingresar" onclick="verificar()">
+
+    <script src="/Capítulo 2/ex24/ex24.js"></script>
+  </body>
+</html>
+

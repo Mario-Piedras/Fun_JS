@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios Control Select</title>
+  </head>
+  <body>
+<h2>Selección colores primarios</h2>
+<form>
+  <!-- Los <p> son separadores o salto de lineas, es decir, cada vez que se coloca un <p> se crea un salto de linea. 
+  Esto es para que cada cuadro de texto o caja de opciones se encuentre separado del resto, y no se vea todo pegado.
+  Caja de Opciones--> 
+  <p>
+    <label>Elija el color:
+      <!--El select es lo que genera la caja de opciones.
+      LLamada al metodo que se encuentra en el JavaScript-->
+      <select name="selector" id="select" onchange ="cambiarColor()">
+        <!--Esto sera la opción por defecto que saldra en la caja de opciones, es por esto que se coloca de primero-->
+        <option value="">Seleccione un color</option>
+        <!--Aqui se encunetran todas las opciones que tendra la caja de opciones.
+        La parte en comillas sera el valor guardado en la opción, y es lo que aparecera al ser invocado. la parte en blanco es lo que saldrá en la caja de opciones-->
+        <option value="Seleccionó: Amarillo">Amarillo</option>
+        <option value="Seleccionó: Azul">Azul</option>
+        <option value="Seleccionó: Rojo">Rojo</option>
+      </select>
+    </label>
+  </p>
+  <!--Al igual que los Arrays, las cajas de opciones separan sus diferentes opciones con un indice que empieza desde cero.
+  En este cuadro se mostrará el indice de la opcion seleccionada en el cuadro de opciones-->
+  <p>
+    <label> Indice seleccionado:
+      <input type="text" id="text1" name="indice" />
+
+    </label>
+  </p>
+  <!--En este cuadro se mostrara el texto de la opción se leccionada, el texto es quella información que quieres que se muestre al usuario, es decir, las palabras en blanco que se encuentra en los options y en cerradas entre "><"-->
+  <p>
+    <label> Color seleccionado:
+      <input type="text" id="text2" name="Color" />
+
+    </label>
+  </p>
+  <!--En este cuadro se mostrará el "Value" o valor de la opción seleccionada, es decir, lo que está entre comillas justo despues del Value.
+  Esto es de gran importancia pues es por lo general lo que se usa para guardar a información en la base de datos-->
+  <p>
+    <label> Valor:
+      <input type="text" id="text3" name="indicacion" />
+    </label>
+  </p>
+</form>
+
+    <script src="/Capítulo 2/ex19/ex19.js"></script>
+  </body>
+</html>

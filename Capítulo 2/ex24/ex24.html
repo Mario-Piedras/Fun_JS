@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>titulo</title>
+    <!--Insertar la blioteca con la cual personalizar la intterfaz-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </head>
+  <body>
+    <h2>Ingreso y captura de datos</h2>
+
+    <label>
+      <!--El onBlur es un metodo que se activa cuando un lemento que tiene el foco, pierde dicha atención-->
+      <input type="text" name="numbre" id="nombre" onfocus="focalizar(this)" onblur="validarVacios(this)"></input>
+    </label>
+
+    <script src="/Capítulo 2/ex25/ex25.js"></script>
+  </body>
+</html>
+
