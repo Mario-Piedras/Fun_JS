@@ -1,0 +1,61 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+#game {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    cursor: none;
+    overflow: hidden;
+}
+
+#player {
+    position: absolute;
+    width: 60px;
+    height: auto;
+    pointer-events: none;
+}
+
+.enemy, .laser, .enemy-laser {
+    position: absolute;
+    width: 40px;
+    height: auto;
+}
+
+.laser, .enemy-laser {
+    width: 6px;
+    height: 20px;
+    background: red;
+}
+
+.enemy-laser {
+    background: yellow;
+}
+
+#scoreboard {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+    font-size: 18px;
+}
+
+#gameOver {
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0,0.8);
+    padding: 30px;
+    text-align: center;
+    border: 2px solid white;
+    font-size: 24px;
+    z-index: 20;
+}
